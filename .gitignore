@@ -1,0 +1,18 @@
+# Ignore Terraform files
+.idea/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+**/*/*.lock.hcl
+
+# Ignore .tfplan files
+*.tfplan
+
+# Ignore local files
+crash.log
